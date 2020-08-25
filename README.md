@@ -10,7 +10,7 @@ This code has been developed by Jose Hernandez-Orallo, Universitat Politecnica d
    
 LICENCE: GPL
 
-****** Guidelines ******
+# guidelines 
 
 The functions are implemented in generality_functions_v.X.X.X.R with a wrapper in "generality.R" that is independent of the version. 
 
@@ -28,6 +28,17 @@ Some other more complex studies are:
 - mazes++: Humans (530 participants, 496 with demographics) with Elithorn's Perceptual Mazes. 
 - odorspan**: Rats (10) for the Odour Span Task (from April et al. "The magic number 70 (plus or minus 20)" Learning and Motivation, 44(3):143–158, 2013.
 - openml*: iris classification problem using 473 different ML classifiers from study number 7306 from OpenML.
+
+In order to execute these other scripts, you must check that the directory is well specified and your DATADIR and OUTPUTDIR are specified. For instance, at the beginning of the ctest.R script you find:
+
+```
+setwd("--- write your folder here ---")
+source("generality.R")
+
+# You can keep these names as long as you have a /ctest.data folder with the data hanging from the folder above
+DATADIR <- "ctest.data"
+OUTPUTDIR <- "ctest.results"
+```
 
 Full description of all these scenarios can be found in the supplementary material of the paper. This repository includes data folders for many of the above studies, and the data to run the generality analysis for each scenario. Data is sometimes third party (*). If a data folder is not available, please email me to see if this can be shared in accordance with the original authors. 
 
