@@ -8,7 +8,7 @@ by J. Hernandez-Orallo, Bao Sheng Loe, Lucy Cheke, Fernando Martinez-Plumed, Sea
 
 This code has been developed by Jose Hernandez-Orallo, Universitat Politecnica de Valencia (jorallo@upv.es, http://josephorallo.webs.upv.es). Some code (IRT and FA analysis) has been adapted from Bao Sheng Loe, University of Cambridge.
    
-* LICENCE: GPL *
+*LICENCE: GPL*
 
 # guidelines 
 
@@ -44,4 +44,4 @@ OUTPUTDIR <- "ctest.results"
 
 Full description of all these scenarios can be found in the supplementary material of the paper. This repository includes data folders for many of the above studies, and the data to run the generality analysis for each scenario. Data is sometimes third party (*). If a data folder is not available, please email me to see if this can be shared in accordance with the original authors. 
 
-* August 2020, Jose Hernandez-Orallo *
+*August 2020, Jose Hernandez-Orallo*
