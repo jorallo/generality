@@ -6,7 +6,7 @@ This is R code for doing Generality Analysis, based on the metric of generality 
 by J. Hernandez-Orallo, Bao Sheng Loe, Lucy Cheke, Fernando Martinez-Plumed, Sean ́O h ́Eigeartaigh
 (submitted, 2020)
 
-This code has been developed by Jose Hernandez-Orallo, Universitat Politecnica de Valencia (jorallo@upv.es, http://josephorallo.webs.upv.es). Some code (IRT and FA analysis) has been adapted from Bao Sheng Loe, University of Cambridge.
+This code has been developed by Jose Hernandez-Orallo, Universitat Politecnica de Valencia (jorallo@upv.es, http://josephorallo.webs.upv.es). Some code (IRT and FA analysis) has been adapted from Bao Sheng Loe, University of Cambridge. Some data extraction and assistance has been provided by Fernando Martinez-Plumed, at JRC - European Commission.
    
 *LICENCE: GPL*
 
