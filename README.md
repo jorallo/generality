@@ -1,4 +1,4 @@
-## generality
+# generality
 
 This is R code for doing Generality Analysis, based on the metric of generality explained in:
 
@@ -10,7 +10,7 @@ This code has been developed by Jose Hernandez-Orallo, Universitat Politecnica d
    
 *LICENCE: GPL*
 
-# guidelines 
+## Guidelines and scenarios included
 
 The functions are implemented in generality_functions_v.X.X.X.R with a wrapper in "generality.R" that is independent of the version. 
 
@@ -28,6 +28,8 @@ Some other more complex studies are:
 - mazes++: Humans (530 participants, 496 with demographics) with Elithorn's Perceptual Mazes. 
 - odorspan**: Rats (10) for the Odour Span Task (from April et al. "The magic number 70 (plus or minus 20)" Learning and Motivation, 44(3):143–158, 2013.
 - openml*: iris classification problem using 473 different ML classifiers from study number 7306 from OpenML.
+
+## Preparing the folders before running the scripts
 
 In order to execute these other scripts, you will need the data, provided in zip files. You must check that the directory is well specified and your DATADIR and OUTPUTDIR are specified. For instance, at the beginning of the ctest.R script you find:
 
