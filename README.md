@@ -1,4 +1,4 @@
-# generality
+## generality
 
 This is R code for doing Generality Analysis, based on the metric of generality explained in:
 
