@@ -25,7 +25,7 @@ Some other more complex studies are:
 - gvgai*: 23 AI systems on 49 games of the General video game AI.
 - herrmann*: The Primate Cognition Test Battery, data from the paper: Esther  Herrmann,  Josep  Call,  Mar ́ıa  Victoria  Hern ́andez-Lloreda,  Brian  Hare,  and  Michael  Tomasello. Humans have evolved specialized skills of social cognition:  The cultural intelligence hypothesis. Science, 317(5843):1360–1366, 2007.
 - lambda: Humans and Q-learning agents compared with Lambda-One, a benchmark used to compare humans and simple reinforcement learning algorithms.
-- mazes**: Humans (530 participants, 496 with demographics) with Elithorn's Perceptual Mazes. 
+- mazes++: Humans (530 participants, 496 with demographics) with Elithorn's Perceptual Mazes. 
 - odorspan**: Rats (10) for the Odour Span Task (from April, Katherine Bruce, and Mark Galizio. "The magic number 70 (plus or minus 20)" Learning and Motivation, 44(3):143–158, 2013.
 - openml*: iris classification problem using 473 different ML classifiers from study number 7306 from OpenML.
 
