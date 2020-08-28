@@ -7,7 +7,6 @@
 # 
 # This is R code for doing Generality Analysis, based on the metric of generality first introduced in 
 #   J. Hernandez-Orallo "I.G.", March 15th, 2018
-#   https://riunet.upv.es/bitstream/handle/10251/100267/secondbest.pdf
 #
 # This code has been developed by
 #   JOSE HERNANDEZ-ORALLO, Universitat Politecnica ce Valencia
@@ -26,7 +25,7 @@
 
 
 
-WORKDIR <- "/OneDrive - UPV/__SUBMISSIONS/2018/General intelligence/__NewCode__/evolution"
+WORKDIR <- "/.../ **** PUT YOUR FOLDER HERE ****")
 setwd(WORKDIR)
 
 PDFEPS = 1
