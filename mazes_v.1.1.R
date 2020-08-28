@@ -4,9 +4,7 @@
 #
 ##############################################################################
 # 
-# This is R code for doing Generality Analysis of the mazes data, based on the metric of generality first introduced in 
-#   J. Hernandez-Orallo "I.G.", March 15th, 2018
-#   https://riunet.upv.es/bitstream/handle/10251/100267/secondbest.pdf
+# This is R code for doing Generality Analysis of the mazes data, based on the metric of generality
 #
 # This code has been developed by
 #   JOSE HERNANDEZ-ORALLO, Universitat Politecnica ce Valencia
@@ -43,8 +41,7 @@
 # calculate difficulty
 # mazeDiff(nodePosition, model="m1") # This takes a long while!!!
 
-
-setwd("/OneDrive - UPV/__SUBMISSIONS/2018/General intelligence/__NewCode__")
+setwd("/.../ **** PUT YOUR FOLDER HERE ****")
 source("generality.R")
 
 DATADIR <- "mazes.humans.data"
