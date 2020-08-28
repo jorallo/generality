@@ -8,9 +8,7 @@
 #   Rajalingham R, Issa EB, Bashivan P, Kar K, Schmidt K, DiCarlo JJ. Large-scale, high-resolution comparison of the core visual object recognition behavior of humans, monkeys, and state-of-the-art deep artificial neural networks. Journal of Neuroscience. 2018 Aug 15;38(33):7255-69.
 #   http://www.jneurosci.org/content/38/33/7255.abstract
 #
-# and the the metric of generality first introduced in 
-#   J. Hernandez-Orallo "I.G.", March 15th, 2018
-#   https://riunet.upv.es/bitstream/handle/10251/100267/secondbest.pdf
+# and the the metric of generality
 #
 # This code has been developed by
 #   JOSE HERNANDEZ-ORALLO, Universitat Politecnica ce Valencia
@@ -50,7 +48,7 @@ range_scale <- function(x){(x-min(x))/(max(x)-min(x))}
 if (!require("ggplot2")) install.packages("ggplot2")
 library(ggplot2)
 
-setwd("/OneDrive - UPV/__SUBMISSIONS/2018/General intelligence/__NewCode__")
+setwd("/.../ **** PUT YOUR FOLDER HERE ****")
 source("generality.R")
 
 DATADIR <- "dicarlo.data"
