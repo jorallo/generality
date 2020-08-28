@@ -9,9 +9,7 @@ source("generality_functions_v.1.0.91.R")
 #
 ##############################################################################
 #
-# This is R code for doing Generality Analysis, based on the metric of generality first introduced in 
-#   J. Hernandez-Orallo "I.G.", March 15th, 2018
-#   https://riunet.upv.es/bitstream/handle/10251/100267/secondbest.pdf
+# This is R code for doing Generality Analysis, based on the metric of generality
 #
 # This code has been developed by
 #   JOSE HERNANDEZ-ORALLO, Universitat Politecnica de Valencia
