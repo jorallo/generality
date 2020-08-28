@@ -6,7 +6,6 @@
 #
 # This is R code for doing Generality Analysis, based on the metric of generality first introduced in 
 #   J. Hernandez-Orallo "I.G.", March 15th, 2018
-#   https://riunet.upv.es/bitstream/handle/10251/100267/secondbest.pdf
 #
 # This code has been developed by
 #   JOSE HERNANDEZ-ORALLO, Universitat Politecnica ce Valencia
@@ -1143,9 +1142,9 @@ PlotCapabilityVsSpread <- function(capabilities, spreads, MINCAP=NULL, MAXCAP=NU
   xposright <- maxcap - width*0.67 # centre
   
   if (SHOW_ASYMPTOTES) {
-    text(x=xposright,y=maxylim/0.86/1.16,pos=4,sprintf("··· Max spread (inc. step)"), cex=0.7, col="red")
-    text(x=xposright,y=maxylim/0.91/1.16,pos=4,sprintf("··· High spread (constant)"), cex=0.7, col="blue")
-    text(x=xposright,y=maxylim/0.96/1.16,pos=4,sprintf("··· Min spread (dec. step)"), cex=0.7, col="darkgreen")
+    text(x=xposright,y=maxylim/0.86/1.16,pos=4,sprintf("Â·Â·Â· Max spread (inc. step)"), cex=0.7, col="red")
+    text(x=xposright,y=maxylim/0.91/1.16,pos=4,sprintf("Â·Â·Â· High spread (constant)"), cex=0.7, col="blue")
+    text(x=xposright,y=maxylim/0.96/1.16,pos=4,sprintf("Â·Â·Â· Min spread (dec. step)"), cex=0.7, col="darkgreen")
   }
   
   if (!plotNames) {
