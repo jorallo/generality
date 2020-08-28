@@ -11,9 +11,7 @@
 #   Science 317, 1360 (2007);
 #   Esther Herrmann, et al.
 #
-# and the the metric of generality first introduced in 
-#   J. Hernandez-Orallo "I.G.", March 15th, 2018
-#   https://riunet.upv.es/bitstream/handle/10251/100267/secondbest.pdf
+# and the the metric of generality 
 #
 # It mostly applies the method: "DIFFICULTY FROM DISTRIBUTIONAL REFERENCE"
 #
@@ -49,7 +47,7 @@
 #############################################################################
 ##############################################################################################################
 
-setwd("/OneDrive - UPV/__SUBMISSIONS/2018/General intelligence/__NewCode__")
+setwd("/.../ **** PUT YOUR FOLDER HERE ****")
 source("generality.R")
 
 OUTPUTDIR <- "herrmann.results"
