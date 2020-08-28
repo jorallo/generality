@@ -29,6 +29,8 @@ Some other more complex studies are:
 - odorspan**: Rats (10) for the Odour Span Task (from April et al. "The magic number 70 (plus or minus 20)" Learning and Motivation, 44(3):143–158, 2013.
 - openml*: iris classification problem using 473 different ML classifiers from study number 7306 from OpenML.
 
+There's also an "evolution.R" file that runs the experiments and plots in the supplementary material about evolutionary selective pressure.
+
 ## Preparing the folders before running the scripts
 
 In order to execute these other scripts, you will need the data, provided in zip files. You must check that the directory is well specified and your DATADIR and OUTPUTDIR are specified. For instance, at the beginning of the ctest.R script you find:
