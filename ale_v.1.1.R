@@ -72,7 +72,7 @@ if (!require('animation')) {
 # and Table 5 from
 # https://openreview.net/pdf?id=rkHVZWZAZ. 
 
-USE_DATES <- TRUE
+USE_DATES <- TRUE  # If this is true, and we select the data with 24 systems, it loads a CSV files that includes the dates the systems (or papers) were released, and generates plots per date and gif animations.
 
 #SYSTEMS <- "withoutRANDOM18"
 SYSTEMS <- "withRANDOM24"  # 
@@ -103,6 +103,9 @@ if (SYSTEMS == "withoutRANDOM18") {
 nrow(df)  # Should be 18 or 24
 nr <- nrow(df)
 ncol(df)  # 19 or 46 originally
+
+
+# This is preparation in case we want to use the system dates, generate animated gifs etc.
 if (USE_DATES) {
   FRAME_SPEED= 2
   DATE_COLUMN <- 2 # 2 Start date, 3 End date
@@ -124,6 +127,7 @@ if (USE_DATES) {
   df[1:nr, ] <- df[s$ix,]  # We order the data frame by date
   df <- df[,-2:-3]  # Remove second and third columns as they have the dates
 }
+
 row.names(df) <- df[, "name"]  # Use the column with the names for the row names
 df <- df[,-1] # Remove the column with the names
 
@@ -239,6 +243,8 @@ OpenPDFEPS(filename, 4, 6)
 PlotCapabilityVsSpread(capabilities,spreads, 0, 1, legendtext=names, legendpos="topright", pch=1:nAgents, col=1:nAgents, sizeLegend = sizeLegend, splitLegend=TRUE)
 ClosePDFEPS()
 
+
+# This generates one PDF per release date, month or year, depending on PRECISION, so we can see the evolution of generality and spread.
 if (USE_DATES) {
 #  PRECISION <- 4 # 4 takes year only, 7 takes year and month, 10 takes the whole date
   dates_sorted0 <- substr(dates_sorted, 1, PRECISION) 
@@ -265,7 +271,7 @@ if (USE_DATES) {
   }  
 }  
 
-
+# Same as above, but instead of PDF files, it generates a GIF
 #PRECISION <- 10 # 4 takes year only, 7 takes year and month, 10 takes the whole date
 setwd(paste0(MYDIR,"/",OUTPUTDIR))
 saveGIF(
@@ -397,7 +403,7 @@ PlotCapabilityVsSpread(r$capabilities,r$spreads,  MINCAP=KMIN, MAXCAP=KMAX, lege
 ClosePDFEPS()
 
 
-
+# This generates one PDF per release date, month or year, depending on PRECISION, so we can see the evolution of generality and spread.
 if (USE_DATES) {
 #  PRECISION <- 4 # 4 takes year only, 7 takes year and month, 10 takes the whole date
   dates_sorted0 <- substr(dates_sorted, 1, PRECISION) 
@@ -424,7 +430,7 @@ if (USE_DATES) {
   }  
 }  
 
-
+# Same as above, but instead of PDF files, it generates a GIF
 #PRECISION <- 10 # 4 takes year only, 7 takes year and month, 10 takes the whole date
 setwd(paste0(MYDIR,"/",OUTPUTDIR))
 saveGIF(
