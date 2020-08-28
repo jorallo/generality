@@ -4,16 +4,14 @@
 #
 ##############################################################################
 # 
-# This is R code for doing Generality Analysis, based on the metric of generality first introduced in 
-#   J. Hernandez-Orallo "I.G.", March 15th, 2018
-#   https://riunet.upv.es/bitstream/handle/10251/100267/secondbest.pdf
+# This is R code for doing Generality Analysis, based on the metric of generality
 #
 # This code has been developed by
 #   JOSE HERNANDEZ-ORALLO, Universitat Politecnica ce Valencia
 #   jorallo@upv.es, http://josephorallo.webs.upv.es
 #   
 #   Data provided by Judith Burkart, from:
-#   Laura A. Damerius, Judith M. Burkart, Maria A. van Noordwijk, Daniel B.M. Haun, Zaida K. Kosonen, Biruté M.F. Galdikasd Yenny Saraswati, Denny Kurniawan, Carel P. van Schaik
+#   Laura A. Damerius, Judith M. Burkart, Maria A. van Noordwijk, Daniel B.M. Haun, Zaida K. Kosonen, BirutÃ© M.F. Galdikasd Yenny Saraswati, Denny Kurniawan, Carel P. van Schaik
 #   "General cognitive abilities in orangutans (Pongo abelii and Pongo pygmaeus)"
 #
 #
@@ -35,7 +33,7 @@
 ##############################################################################
 
 
-setwd("/OneDrive - UPV/__SUBMISSIONS/2018/General intelligence/__NewCode__")
+setwd("/.../ **** PUT YOUR FOLDER HERE ****")
 source("generality.R")
 
 
