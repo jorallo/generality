@@ -2,7 +2,7 @@
 
 This is R code for doing Generality Analysis, based on the metric of generality explained in:
 
-"Disentangling General Intelligence: The Generality of Human, Animal and Artificial Intelligence"
+"Disentangling General Intelligence: The Generality of Natural and Artificial Intelligence"
 by J. Hernandez-Orallo, Bao Sheng Loe, Lucy Cheke, Fernando Martinez-Plumed, Sean ́O h ́Eigeartaigh
 (submitted, 2020)
 
